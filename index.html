@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apresentação - Cássio Silva dos Santos</title>
+    
+    <!-- CSS interno -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #00796b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #c8e6c9;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+            padding: 0 15px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            width: 100%;
+            max-width: 600px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .foto {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .info p {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+
+        h3 {
+            font-size: 1.4rem;
+            color: #00796b;
+            margin-top: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 10px 0;
+            margin-bottom: 20px;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+        }
+
+        ul li a {
+            color: #00796b;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        ul li a:hover {
+            color: #004d40;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px 0;
+            background: #00796b;
+            color: white;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                padding: 0;
+            }
+
+            .card {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Cássio Silva dos Santos</h1>
+        <p>Estudante de Técnico em Redes de Computadores - IF Baiano</p>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <section class="container">
+        <div class="card">
+            <!-- Foto do estudante -->
+            <img src="https://via.placeholder.com/200" alt="Foto de Cássio Silva dos Santos" class="foto">
+
+            <div class="info">
+                <p><strong>Curso:</strong> Técnico em Redes de Computadores</p>
+                <p><strong>Instituto:</strong> IF Baiano - Polo Remanso</p>
+
+                <hr>
+
+                <!-- Sobre o estudante -->
+                <h3>Sobre mim</h3>
+                <p>Olá! Sou Cássio Silva dos Santos, estudante do curso Técnico em Redes de Computadores no Instituto Federal Baiano, Polo Remanso. Tenho interesse por redes de computadores, segurança da informação e infraestrutura de TI. Busco aprender e aplicar meus conhecimentos no mundo da tecnologia.</p>
+
+                <!-- Habilidades -->
+                <h3>Habilidades</h3>
+                <ul>
+                    <li>Configuração de Redes Locais (LAN)</li>
+                    <li>Administração de Servidores</li>
+                    <li>Segurança de Redes</li>
+                    <li>Virtualização e Cloud Computing</li>
+                    <li>Programação em Python e Shell Script</li>
+                </ul>
+
+                <!-- Contato -->
+                <h3>Contato</h3>
+                <ul>
+                    <li>Email: cassio.santos@ifbaiano.edu.br</li>
+                    <li>Telefone: (74) 9 9999-9999</li>
+                </ul>
+
+                <!-- Redes sociais -->
+                <div class="redes-sociais">
+                    <a href="#">LinkedIn</a>
+                    <a href="#">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Instituto Federal Baiano - Polo Remanso © 2025</p>
+    </footer>
+
+</body>
+
+</html>
